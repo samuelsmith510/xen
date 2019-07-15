@@ -1,7 +1,7 @@
 extraction:
   cpp:
     prepare:
-      packages: ["gdc","bin86", "bcc"]
+      packages: "bin86 bcc"
     configure:
       command: "./configure"
     index:
