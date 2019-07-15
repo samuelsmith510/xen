@@ -1,0 +1,9 @@
+extraction:
+  cpp:
+    prepare:
+      packages: ["gdc","bin86", "bcc"]
+    configure:
+      command: "./configure"
+    index:
+      build_command:
+      - "make"
